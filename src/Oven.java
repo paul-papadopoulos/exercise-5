@@ -18,6 +18,6 @@ public class Oven extends Device{
     }
 
     public String toString(){
-        return noise_level + ", " + self_cleaning + ", " + temperature_range + ", " + wifi + ", " + color + '\n' + countOven + '\n';
+        return this.Length + ", " + this.Height + ", " + this.Depth + ", " + this.Mname + ", " + this.Dname + ", " + this.Dtype + ", " + this.ENCON + ", " + noise_level + ", " + self_cleaning + ", " + temperature_range + ", " + wifi + ", " + color + '\n' + countOven + '\n';
     }
 }

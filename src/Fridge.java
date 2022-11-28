@@ -6,6 +6,8 @@ public class Fridge extends Device{
     private String color;
     static int countFridge;
 
+
+
     public Fridge(double Length, double Height, double Depth, String Mname, String Dname, String Dtype, double ENCON,
                   double noise_level, String water_dis, String ice_dis, String wifi, String color) {
         super(Length, Height, Depth, Mname, Dname, Dtype, ENCON);
@@ -18,7 +20,7 @@ public class Fridge extends Device{
     }
 
     public String toString(){
-        return  noise_level + ", " + water_dis + ", " + ice_dis + ", " + wifi + ", " + color + '\n' + countFridge + '\n';
+        return  this.Length + ", " + this.Height + ", " + this.Depth + ", " + this.Mname + ", " + this.Dname + ", " + this.Dtype + ", " + this.ENCON + ", " + noise_level + ", " + water_dis + ", " + ice_dis + ", " + wifi + ", " + color + '\n' + countFridge + '\n';
     }
 }
 

@@ -18,7 +18,7 @@ public class AirCondition extends Device{
     }
 
     public String toString(){
-        return noise_level + ", " + btu + ", " + ionizer + ", " + wifi + ", " + color + '\n' + countAirCondition + '\n';
+        return this.Length + ", " + this.Height + ", " + this.Depth + ", " + this.Mname + ", " + this.Dname + ", " + this.Dtype + ", " + this.ENCON + ", " + noise_level + ", " + btu + ", " + ionizer + ", " + wifi + ", " + color + '\n' + countAirCondition + '\n';
     }
 }
 

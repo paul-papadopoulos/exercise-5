@@ -18,7 +18,7 @@ public class WashingMachine extends Device {
     }
 
     public String toString() {
-        return noise_level + ", " + capacity + ", " + rotation_speed + ", " + wifi + ", " + color + '\n' + countWashingMachine + '\n';
+        return this.Length + ", " + this.Height + ", " + this.Depth + ", " + this.Mname + ", " + this.Dname + ", " + this.Dtype + ", " + this.ENCON + ", " + noise_level + ", " + capacity + ", " + rotation_speed + ", " + wifi + ", " + color + '\n' + countWashingMachine + '\n';
     }
 }
 

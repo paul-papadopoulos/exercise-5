@@ -1,11 +1,11 @@
 public class Device {
-    private double Length;
-    private double Height;
-    private double Depth;
-    private String Mname;   //Όνομα Κατασκευαστή
-    private String Dname;   //Όνομα Συσκευής
-    private String Dtype;   //Τύπος Συσκευής
-    private double ENCON;   //Κατανάλωση Ενέργειας
+    public double Length;
+    public double Height;
+    public double Depth;
+    public String Mname;   //Όνομα Κατασκευαστή
+    public String Dname;   //Όνομα Συσκευής
+    public String Dtype;   //Τύπος Συσκευής
+    public double ENCON;   //Κατανάλωση Ενέργειας
     boolean status;
 
     public Device(double Length, double Height, double Depth, String Mname, String Dname, String Dtype, double ENCON) {
@@ -19,7 +19,7 @@ public class Device {
     }
 
     public String toString() {
-        return Length + ", " + Height + ", " + Depth + ", " + Mname + ", " + Dname + ", " + Dtype + ", " + ENCON + '\n';
+        return this.Length + ", " + this.Height + ", " + this.Depth + ", " + this.Mname + ", " + this.Dname + ", " + this.Dtype + ", " + this.ENCON + '\n';
     }
 
     void PowerOn(){

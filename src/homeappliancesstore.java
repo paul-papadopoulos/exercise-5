@@ -7,31 +7,117 @@ public class homeappliancesstore {
         System.out.println(ask.status());
     }
 
+
+
     public static void main(String[] args) {
 
-        Device Fridge1 = new Fridge( 179, 91, 73, "LG", "GSLV70PZTM"
-                , "PSIGIO NTOULAPA", 430, 55, "yes", "no", "yes", "white" );
-        Device Fridge2 = new Fridge(178 , 91, 71, "Samsung", "RS68A8822S9"
-                , "PSIGIO NTOULAPA", 281, 54, "no", "yes", "no", "grey");
+        Device Fridge1;
+        Fridge1 = new Fridge( 179,
+                91,
+                73,
+                "LG",
+                "GSLV70PZTM"
+                , "PSIGIO NTOULAPA",
+                430,
+                55,
+                "yes",
+                "no",
+                "yes",
+                "white" );
+        Device Fridge2;
+        Fridge2 = new Fridge(178 ,
+                91,
+                71,
+                "Samsung",
+                "RS68A8822S9"
+                , "PSIGIO NTOULAPA",
+                281,
+                54,
+                "no",
+                "yes",
+                "no",
+                "grey");
 
-        Device WashingMachine1 = new WashingMachine(85, 60, 56, "LG", "F4WV308S3E"
-                , "EMPROSTHIAS FORTISIS", 63/100, 74, 9, 1400, "no", "black"  );
-        Device WashingMachine2 = new WashingMachine(85, 60, 55, "Samsung", "WW90T554DAX/S7"
-                , "EMPROSTHIAS FORTISIS", 49/100, 77, 10, 1500, "yes", "white");
+        Device WashingMachine1;
+        WashingMachine1 = new WashingMachine(85,
+                60,
+                56,
+                "LG",
+                "F4WV308S3E"
+                , "EMPROSTHIAS FORTISIS",
+                63/100,
+                74,
+                9,
+                1400,
+                "no",
+                "black"  );
+        Device WashingMachine2;
+        WashingMachine2 = new WashingMachine(85,
+                60,
+                55,
+                "Samsung",
+                "WW90T554DAX/S7"
+                , "EMPROSTHIAS FORTISIS",
+                49/100,
+                77,
+                10,
+                1500,
+                "yes",
+                "white");
 
-        Device Oven1 = new Oven(59, 59, 54, "Bosch ", "BA51FN00"
-                , "hlektrikos", 420,
-                55, "yes", 275, "YES", "grey" );
-        Device Oven2 = new Oven(59, 59, 54, "Bosch", "HBA534ES0"
-                , "hlektrikos", 777,
-                56, "no", 285, "no", "inox");
+        Device Oven1;
+        Oven1 = new Oven(59,
+                59,
+                54,
+                "Bosch ",
+                "BA51FN00"
+                , "hlektrikos",
+                420,
+                55,
+                "yes",
+                275,
+                "YES",
+                "grey" );
+        Device Oven2;
+        Oven2 = new Oven(59,
+                59,
+                54,
+                "Bosch",
+                "HBA534ES0"
+                , "hlektrikos",
+                777,
+                56,
+                "no",
+                285,
+                "no",
+                "inox");
 
-        Device AirCondition1 = new AirCondition(923, 305, 263, "Mitsubishi", "MSZ/MUZ-HR71VF"
-                , "AC", 355,
-                72, 18000, "yes", "no", "grey");
-        Device AirCondition2 = new AirCondition(849, 289, 215, "Toyotomi", "UTN/UTG-12AP"
-                , "AC", 400,
-                78, 19000, "yes", "yes", "white");
+        Device AirCondition1;
+        AirCondition1 = new AirCondition(923,
+                305,
+                263,
+                "Mitsubishi",
+                "MSZ/MUZ-HR71VF"
+                , "AC",
+                355,
+                72,
+                18000,
+                "yes",
+                "no",
+                "grey");
+        Device AirCondition2;
+        AirCondition2 = new AirCondition(849,
+                289,
+                215,
+                "Toyotomi",
+                "UTN/UTG-12AP"
+                , "AC",
+                400,
+                78,
+                19000,
+                "yes",
+                "yes",
+                "white");
 
 
         System.out.println("Fridge1 : " + Fridge1 + '\n');
